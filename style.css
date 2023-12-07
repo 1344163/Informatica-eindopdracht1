@@ -33,8 +33,45 @@ header a:hover{
    background-color: #ccccccd7;
 }
 
-#Iphone{
+
+#dell{
+   background-color: #ffffff;
+   height: 600px;
+   width: 100%;
+   font-family: comfortaa;
+   font-size: 30pt;
+   color: #373737;
+   }
+
+
+#Iphone15{
+   background-color:#373737;
+   height: 600px;
+   width: 100%;
+}
+
+
+#ipad{
+   background-color: #ffffff;
+   height: 600px;
+   width: 100%;
+}
+
+
+#gamingPC{
    background-color: #373737;
    height: 600px;
+   width: 100%;
+}
+
+#hue{
+   background-color: #ffffff;
+   height: 600px;
+   width: 100%;
+}
+
+footer{
+   background-color: #cccccc ;
+   height: 400px;
    width: 100%;
 }
