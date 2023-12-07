@@ -11,6 +11,21 @@ header {
    height: 100px;
    width: 100%;
    float: center;
-   position: sticky;
- 
+   position: sticky; 
+}
+header a {
+   font-size: 18px;
+   font-family: Impact;
+   color: #cccccc;
+   background-color: #373737;
+   text-decoration: none;
+   text-align: center;
+   line-height: 100px;
+   height: 100px;
+   width: 1000px;
+}
+
+header a:hover{
+   color: #ffffff;
+   background-color: #ccccccd7;
 }
