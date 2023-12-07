@@ -1,3 +1,16 @@
 * {
    background-color: bisque;
+  
+}
+header {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #373737;
+   height: 100px;
+   width: 100%;
+   float: center;
+   position: sticky;
+ 
 }
