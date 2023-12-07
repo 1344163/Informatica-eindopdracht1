@@ -12,17 +12,20 @@ header {
    width: 100%;
    float: center;
    position: sticky; 
+   position: -webkit-sticky;
 }
 header a {
+   position: sticky;
+   position: -webkit-sticky;
    font-size: 18px;
    font-family: Impact;
    color: #cccccc;
    background-color: #373737;
+   padding: 105px;
    text-decoration: none;
    text-align: center;
    line-height: 100px;
    height: 100px;
-   width: 1000px;
 }
 
 header a:hover{
