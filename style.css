@@ -1,8 +1,11 @@
 * {
-   background-color: bisque;
+   background-color: white;
+   margin: 0;
+   height: 10000px;
   
 }
 header {
+   position: fixed;
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -11,17 +14,14 @@ header {
    height: 100px;
    width: 100%;
    float: center;
-   position: sticky; 
-   position: -webkit-sticky;
+  
 }
 header a {
-   position: sticky;
-   position: -webkit-sticky;
-   font-size: 18px;
+   font-size: 112.5%;
    font-family: Impact;
    color: #cccccc;
    background-color: #373737;
-   padding: 105px;
+   padding: 6.428%;
    text-decoration: none;
    text-align: center;
    line-height: 100px;
