@@ -1,7 +1,7 @@
 * {
    background-color: white;
    margin: 0;
-   height: 10000px;
+   height: 4500x;
   
 }
 header {
@@ -14,12 +14,15 @@ header {
    height: 100px;
    width: 100%;
    float: center;
+   margin: 0;
+   padding: 0;
+
   
 }
 header a {
    font-size: 112.5%;
    font-family: Impact;
-   color: #cccccc;
+   color: #ffffff;
    background-color: #373737;
    padding: 6.428%;
    text-decoration: none;
@@ -33,41 +36,48 @@ header a:hover{
    background-color: #ccccccd7;
 }
 
+#Filler{
+   width: 100%;
+   height: 100px;
+}
 
 #dell{
    background-color: #ffffff;
-   height: 100px;
+   height: 800px;
    width: 100%;
    font-family: comfortaa;
    font-size: 30pt;
-   color: #373737;
    }
 
 
 #Iphone15{
    background-color:#373737;
-   height: 600px;
+   height: 800px;
    width: 100%;
+   float: left;
 }
 
 
 #ipad{
    background-color: #ffffff;
-   height: 600px;
+   height: 800px;
    width: 100%;
+   float: left;
 }
 
 
 #gamingPC{
    background-color: #373737;
-   height: 600px;
+   height: 800px;
    width: 100%;
+   float: left;
 }
 
 #hue{
    background-color: #ffffff;
-   height: 600px;
+   height: 800px;
    width: 100%;
+   float: left;
 }
 
 footer{
@@ -75,3 +85,12 @@ footer{
    height: 400px;
    width: 100%;
 }
+
+img {
+   display: block;
+   height: 800px;
+   width: 1050px;
+
+
+}
+
