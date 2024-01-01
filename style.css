@@ -1,7 +1,7 @@
 * {
    background-color: white;
    margin: 0;
-   height: 4500x;
+   height: 5000x;
   
 }
 header {
@@ -45,18 +45,45 @@ header a:hover{
    background-color: #ffffff;
    height: 800px;
    width: 100%;
-   font-family: comfortaa;
+   font-family: Impact;
    font-size: 30pt;
-   }
+}
 
+#Delllatitude{
+   font-size: 35pt;
+   text-align: center;
+   font-family: Impact;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   color: #373737;
+   font-weight: bold;
+}
+
+#Delllatitude:hover{
+   color: #000000;
+}
 
 #Iphone15{
-   background-color:#373737;
+   background-color:#000000;
    height: 800px;
    width: 100%;
    float: left;
 }
 
+#Iphones15{
+   background-color: #000000;
+   font-size: 35pt;
+   text-align: center;
+   font-family: Impact;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   color: #ffffff;
+   font-weight: bold;
+}
+
+#Iphones15:hover{
+   color: #cccccc;
+}
 
 #ipad{
    background-color: #ffffff;
@@ -81,16 +108,16 @@ header a:hover{
 }
 
 footer{
-   background-color: #cccccc ;
+   background-color: #cccccc;
    height: 400px;
    width: 100%;
 }
 
 img {
    display: block;
-   height: 800px;
-   width: 1050px;
-
-
+   z-index: -1;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
