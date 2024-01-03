@@ -1,9 +1,8 @@
 * {
-   background-color: white;
+   background-color: #cccccc;
    margin: 0;
-   height: 5000x;
-  
 }
+
 header {
    position: fixed;
    list-style-type: none;
@@ -37,19 +36,21 @@ header a:hover{
 }
 
 #Filler{
+   background-color: #ffffff;
    width: 100%;
    height: 100px;
+   float: left;
 }
 
 #dell{
    background-color: #ffffff;
    height: 800px;
    width: 100%;
-   font-family: Impact;
-   font-size: 30pt;
+   float: left;
 }
 
 #Delllatitude{
+   background-color: #ffffff;
    font-size: 35pt;
    text-align: center;
    font-family: Impact;
@@ -87,8 +88,6 @@ header a:hover{
    background-color: #ffffff;
    height: 800px;
    width: 100%;
-   font-family: Impact;
-   font-size: 30pt;
    float: left;
 }
 
@@ -107,24 +106,62 @@ header a:hover{
 }
 
 #gamingPC{
-   background-color: #373737;
+   background-color: #000000;
    height: 800px;
    width: 100%;
    float: left;
+}
+
+#Gamingpc{
+   background-color: #000000;
+   font-size: 35pt;
+   text-align: center;
+   font-family: Impact;
+   margin-top: 50px;
+   color: #ffffff;
+   font-weight: bold;
+}
+#Gamingpc:hover{
+   color: #cccccc;
 }
 
 #hue{
    background-color: #ffffff;
-   height: 800px;
+   height: 850px;
    width: 100%;
    float: left;
+}
+#Philipshue{
+   background-color: #ffffff;
+   font-size: 35pt;
+   text-align: center;
+   font-family: Impact;
+   margin-top: 50px;
+   color: #373737;
+   font-weight: bold;
+}
+
+#Philipshue:hover{
+   color: #000000;
 }
 
 footer{
    background-color: #cccccc;
-   height: 400px;
+   height: 300px;
    width: 100%;
+   float: left;
 }
+
+.footer{
+   background-color: #cccccc;
+   color: #373737;
+   font-size: 18pt;
+   text-align: center;
+   font-family: Impact;
+   font-style: italic;
+   margin: 50px;
+}
+
 
 img {
    display: block;
@@ -132,5 +169,11 @@ img {
    display: block;
    margin-left: auto;
    margin-right: auto;
+}
+
+section{
+   background-color: #ffffff;
+   width: 100%;
+   height: 3000px;
 }
 
