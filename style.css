@@ -59,10 +59,6 @@ header a:hover{
    font-weight: bold;
 }
 
-#Delllatitude:hover{
-   color: #000000;
-}
-
 #Iphone15{
    background-color:#0c0c0c;
    height: 800px;
@@ -78,10 +74,6 @@ header a:hover{
    margin-top: 50px;
    color: #ffffff;
    font-weight: bold;
-}
-
-#Iphones15:hover{
-   color: #cccccc;
 }
 
 #ipad{
@@ -101,10 +93,6 @@ header a:hover{
    font-weight: bold;
 }
 
-#ipadair:hover{
-   color: #000000;
-}
-
 #gamingPC{
    background-color: #000000;
    height: 800px;
@@ -121,9 +109,6 @@ header a:hover{
    color: #ffffff;
    font-weight: bold;
 }
-#Gamingpc:hover{
-   color: #cccccc;
-}
 
 #hue{
    background-color: #ffffff;
@@ -131,6 +116,7 @@ header a:hover{
    width: 100%;
    float: left;
 }
+
 #Philipshue{
    background-color: #ffffff;
    font-size: 35pt;
@@ -139,10 +125,7 @@ header a:hover{
    margin-top: 50px;
    color: #373737;
    font-weight: bold;
-}
-
-#Philipshue:hover{
-   color: #000000;
+   text-decoration: none;
 }
 
 footer{
@@ -176,4 +159,3 @@ section{
    width: 100%;
    height: 1000px;
 }
-
