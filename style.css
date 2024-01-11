@@ -23,11 +23,12 @@ header a {
    font-family: Impact;
    color: #ffffff;
    background-color: #373737;
-   padding: 6.385%;
+   padding: 8%;
    text-decoration: none;
    text-align: center;
    line-height: 100px;
    height: 100px;
+
 }
 
 header a:hover{
@@ -36,7 +37,7 @@ header a:hover{
 }
 
 #Filler{
-   background-color: #ffffff;
+   background-color: #0c0c0c;
    width: 100%;
    height: 100px;
    float: left;
@@ -73,23 +74,6 @@ header a:hover{
    font-family: Impact;
    margin-top: 50px;
    color: #ffffff;
-   font-weight: bold;
-}
-
-#ipad{
-   background-color: #ffffff;
-   height: 800px;
-   width: 100%;
-   float: left;
-}
-
-#ipadair{
-   background-color: #ffffff;
-   font-size: 35pt;
-   text-align: center;
-   font-family: Impact;
-   margin-top: 50px;
-   color: #373737;
    font-weight: bold;
 }
 
@@ -239,4 +223,34 @@ section{
    margin-right: 5%;
    display: block;
    margin-bottom: 3%;
+}
+
+#h{
+   background-color: #cccccc;
+   border-radius: 20px;
+   float: left;
+   width: 90%;
+   height: 800px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: block;
+}
+
+#i{
+   background-color: #cccccc;
+   border-radius: 20px;
+   float: left;
+   width: 90%;
+   height: 700px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: block;
+}
+
+#j{
+   background-color: #ffffff;
+   width: 100%;
+   height: 2400px;
 }
