@@ -43,6 +43,13 @@ header a:hover{
    float: left;
 }
 
+#Filler2{
+   background-color: #ffffff;
+   width: 100%;
+   height: 100px;
+   float: left;
+}
+
 #dell{
    background-color: #ffffff;
    height: 800px;
