@@ -3,7 +3,9 @@
    margin: 0;
 }
 
-header {
+/* Navigatie balk */
+
+nav {
    position: fixed;
    list-style-type: none;
    margin: 0;
@@ -15,24 +17,24 @@ header {
    float: center;
 
 }
-header a {
-   font-size: 112.5%;
-   font-family: Impact;
-   color: #ffffff;
+
+nav a {
    background-color: #373737;
-   padding: 8%;
+   color: #ffffff;
+   font-family: Impact;
    text-decoration: none;
    text-align: center;
+}
+
+nav a:hover{
+   color: #cccccc;
+}
+button{
+   background-color: #373737;
    line-height: 100px;
    height: 100px;
    overflow-x: auto;
-   text-overflow: ellipsis;
-
-}
-
-header a:hover{
-   color: #ffffff;
-   background-color: #ccccccd7;
+   text-overflow: ellipsis;  
 }
 
 #Filler{
@@ -49,19 +51,21 @@ header a:hover{
    float: left;
 }
 
+/* Homepage */
+
 #image-a{
-   height: 700px; 
-   width: 700px;
+   height: 100%; 
+   width: 100%;
+   max-width: 800px;
+   max-height: 800px;
    object-fit: contain;
 }
 
 #Iphone15{
    background-color:#0c0c0c;
-   height: 800px;
+   height: 100%;
    width: 100%;
    float: left;
-   max-width: 100%;
-   max-height: 800px;
 }
 
 #Iphones15{
@@ -74,9 +78,18 @@ header a:hover{
    font-weight: bold;
 }
 
+#image-b{
+   height: 100%; 
+   width: 100%; 
+   max-height: 800px;
+   max-width: 900px;
+   background-color: #ffffff;
+   object-fit: contain;
+}
+
 #dell{
    background-color: #ffffff;
-   height: 800px;
+   height: 100%;
    width: 100%;
    float: left;
 }
@@ -91,9 +104,17 @@ header a:hover{
    font-weight: bold;
 }
 
+#image-c{
+   height: 100%;
+   width: 100%;
+   max-height: 650px;
+   max-width: 900px;
+   object-fit: contain;
+}
+
 #gamingPC{
    background-color: #000000;
-   height: 800px;
+   height: 100%;
    width: 100%;
    float: left;
 }
@@ -108,14 +129,23 @@ header a:hover{
    font-weight: bold;
 }
 
-#hue{
-   background-color: #ffffff;
-   height: 850px;
+#image-d{
+   height: 100%;
    width: 100%;
+   max-height: 700px;
+   max-width: 700px;
+   object-fit: contain;
+}
+
+#router{
+   background-color: #ffffff;
+   height: 100%;
+   width: 100%;
+   max-height: 800px;
    float: left;
 }
 
-#Philipshue{
+#Nighthawk{
    background-color: #ffffff;
    font-size: 35pt;
    text-align: center;
@@ -125,6 +155,16 @@ header a:hover{
    font-weight: bold;
    text-decoration: none;
 }
+
+img {
+   display: block;
+   z-index: -1;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Footer */
 
 footer{
    background-color: #cccccc;
@@ -143,13 +183,121 @@ footer{
    margin: 50px;
 }
 
+/* Alle paginas */
 
-<<<<<<< HEAD
-img {
-   display: block;
-   z-index: -1;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+section{
+   background-color: #ffffff;
+   width: 100%;
+   height: 3310px;
 }
 
+#a{
+   background-color: #cccccc;
+   border-radius: 20px;
+   float: left;
+   width: 90%;
+   height: 600px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: block;
+}
+
+#b{
+   background-color: #cccccc;
+   border-radius: 20px;
+   float: left;
+   width: 90%;
+   height: 600px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: block;
+}
+
+#c{
+   background-color: #cccccc;
+   float: left;
+   width: 43%;
+   height: 500px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 2%;
+   border-radius: 20px;
+}
+
+#d{
+   background-color: #cccccc;
+   float: left;
+   width: 43%;
+   height: 500px;
+   margin-top: 3%;
+   margin-left: 2%;
+   margin-right: 5%;
+   border-radius: 20px;
+}
+
+#e{
+   background-color: #cccccc;
+   float: left;
+   width: 43%;
+   height: 500px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 2%;
+   border-radius: 20px;
+}
+
+#f{
+   background-color: #cccccc;
+   float: left;
+   width: 43%;
+   height: 500px;
+   margin-top: 3%;
+   margin-left: 2%;
+   margin-right: 5%;
+   border-radius: 20px;
+}
+
+#g{
+   background-color: #cccccc;
+   border-radius: 20px;
+   float: left;
+   width: 90%;
+   height: 700px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: block;
+   margin-bottom: 3%;
+}
+
+#h{
+   background-color: #cccccc;
+   border-radius: 20px;
+   float: left;
+   width: 90%;
+   height: 800px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: block;
+}
+
+#i{
+   background-color: #cccccc;
+   border-radius: 20px;
+   float: left;
+   width: 90%;
+   height: 700px;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: block;
+}
+
+#j{
+   background-color: #ffffff;
+   width: 100%;
+   height: 2400px;
+}
