@@ -8,8 +8,6 @@
 nav {
    position: fixed;
    list-style-type: none;
-   margin: 0;
-   padding: 0;
    overflow: hidden;
    background-color: #373737;
    height: 100px;
@@ -29,12 +27,20 @@ nav a {
 nav a:hover{
    color: #cccccc;
 }
+
 button{
    background-color: #373737;
    line-height: 100px;
    height: 100px;
-   overflow-x: auto;
-   text-overflow: ellipsis;  
+   width: 19.86%;
+   color: #ffffff;
+   font-family: Impact;
+   font-size: 17pt;
+   border: none;
+}
+
+button:hover{
+   background-color: #cccccc;
 }
 
 #Filler{
