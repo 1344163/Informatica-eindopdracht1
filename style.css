@@ -208,7 +208,7 @@ section{
 #b{
    background-color: #cccccc;
    float: left;
-   width: 39%;
+   width: 43%;
    max-width: 620px;
    height: 440px;
    margin-top: 3%;
@@ -216,22 +216,22 @@ section{
    margin-right: 2%;
    border-radius: 20px;
    padding: 32px;
-   float: left;
-} 
+}
+
 
 #c{
    background-color: #cccccc;
    float: left;
-   width: 39%;
-   height: 420px;
-   max-width: 620px;
+   width: 34%;
+   height: 425px;
+   max-width: 600px;
    margin-top: 3%;
    margin-left: 2%;
    margin-right: 5%;
    border-radius: 20px;
    padding: 40px;
    padding-left: 100px;
-   float: right;
+   float: left;
 }
 
 #d{
@@ -272,14 +272,35 @@ section{
    font-size: 25pt;
    color: #373737;
    text-overflow: ellipsis;
+   text-decoration: none;
 }
 
 .Discription{
    font-family: -apple-system;
-   font-size: 12pt;
+   font-size: 13pt;
    color: #373737;
    text-overflow: ellipsis;
    padding: 20px;
+}
+
+.H1-text .tooltiptext{
+   font-family: -apple-system;
+   visibility: hidden;
+   background-color: #373737;
+   color: #cccccc;
+   text-align: center;
+   padding: 5px ;
+   border-radius: 10px;
+   position: absolute;
+}
+
+.H1-text:hover .tooltiptext{
+   visibility: visible;
+}
+
+.tooltiptext{
+   color: #ffffff;
+   font-size: 10pt;
 }
 
 /* smartphones */
@@ -332,5 +353,20 @@ section{
    font-size: 25pt;
    color: #373737;
    text-overflow: ellipsis;
-   padding-top: 60px;
+   text-decoration: none;
+}
+
+.H1-text2 .tooltiptext{
+   font-family: -apple-system;
+   visibility: hidden;
+   background-color: #373737;
+   color: #cccccc;
+   text-align: center;
+   padding: 5px ;
+   border-radius: 10px;
+   position: absolute;
+}
+
+.H1-text2:hover .tooltiptext{
+   visibility: visible;
 }
