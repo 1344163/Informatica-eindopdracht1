@@ -170,21 +170,70 @@ img {
 
 footer{
    background-color: #cccccc;
-   height: 300px;
+   height: 200px;
    width: 100%;
    float: left;
 }
 
 .footer{
-   background-color: #cccccc;
    color: #373737;
-   font-size: 18pt;
-   text-align: center;
-   font-family: Impact;
-   font-style: italic;
+   text-decoration: none;
    margin: 50px;
+   margin-left: 100px;
+   font-family: impact;
+   font-size: 14pt;
+   font-style: italic;
+   float: right;
+   margin-bottom: 20px;
 }
 
+#footer1 {
+   float: left;
+   background-color: #cccccc;
+   color: #373737;
+   font-size: 14pt;
+   font-family: impact;
+   text-align: center;
+   font-style: italic;
+   margin: 60px;
+   padding-top: 30px;
+
+}
+
+#image-i {
+   padding-top: 30px;
+   float: left;
+   width: 80px;
+   height: 80px;
+   margin: 30px;
+}
+
+#image-j {
+   padding-top: 30px;
+   float: left;
+   width: 100px;
+   height: 80px;
+   margin: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+#image-k {
+   padding-top: 30px;
+   float: left;
+   width: 80px;
+   height: 80px;
+   margin: 30px;
+}
+
+#image-l {
+   padding-top: 30px;
+   float: left;
+   width: 80px;
+   height: 80px;
+   margin: 30px;
+}
+ 
 /* Alle paginas */
 
 section{
