@@ -431,3 +431,7 @@ section{
 .H1-text2:hover .tooltiptext{
    visibility: visible;
 }
+#kaas{
+width: 30 pix;
+height: 30 pix;
+}
