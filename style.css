@@ -432,6 +432,13 @@ section{
    visibility: visible;
 }
 #kaas{
-width: 30 pix;
-height: 30 pix;
+   height: 100%;
+   width: 100%;
+   max-height: 450px;
+   max-width: 350px;
+   float: left;
+   padding: 5px;
+   padding-right: 0px;
+   object-fit: contain;
+   background-color: #cccccc;
 }
